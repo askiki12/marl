@@ -83,6 +83,7 @@ class VDNAgent:
 		self.target_net = QNetwork(config.obs_dim, config.action_dim, config.hidden_dim).to(self.device)
 		self.target_net.load_state_dict(self.policy_net.state_dict())
 		self.optimizer = torch.optim.Adam(self.policy_net.parameters(), lr=config.lr)
+		self.replay_buffer = VDNReplayBuffer(config.buffer_size)
 		self.epsilon = config.epsilon_start
 		self.train_steps = 0
 
@@ -94,6 +95,52 @@ class VDNAgent:
 		with torch.no_grad():
 			q_values = self.policy_net(obs_tensor)
 		return int(torch.argmax(q_values, dim=-1).item())
+
+	def store_transition(
+		self,
+		obs: np.ndarray,
+		action: int,
+		reward: float,
+		next_obs: np.ndarray,
+		done: bool,
+	) -> None:
+		self.replay_buffer.add((obs, action, reward, next_obs, done))
+
+	def update(self) -> Optional[Dict[str, float]]:
+		"""Run one gradient update using the local agent buffer.
+
+		TODO: replace with a true centralized VDN loss over summed Q-values.
+		"""
+
+		if len(self.replay_buffer) < self.config.batch_size:
+			return None
+
+		batch = self.replay_buffer.sample(self.config.batch_size)
+		obs_batch, action_batch, reward_batch, next_obs_batch, done_batch = zip(*batch)
+
+		obs_tensor = torch.as_tensor(np.array(obs_batch), dtype=torch.float32, device=self.device)
+		action_tensor = torch.as_tensor(np.array(action_batch), dtype=torch.int64, device=self.device).unsqueeze(-1)
+		reward_tensor = torch.as_tensor(np.array(reward_batch), dtype=torch.float32, device=self.device).unsqueeze(-1)
+		next_obs_tensor = torch.as_tensor(np.array(next_obs_batch), dtype=torch.float32, device=self.device)
+		done_tensor = torch.as_tensor(np.array(done_batch), dtype=torch.float32, device=self.device).unsqueeze(-1)
+
+		q_values = self.policy_net(obs_tensor).gather(1, action_tensor)
+		with torch.no_grad():
+			next_q_values = self.target_net(next_obs_tensor).max(dim=1, keepdim=True).values
+			targets = reward_tensor + self.config.gamma * (1.0 - done_tensor) * next_q_values
+
+		loss = torch.nn.functional.mse_loss(q_values, targets)
+
+		self.optimizer.zero_grad()
+		loss.backward()
+		self.optimizer.step()
+
+		self.train_steps += 1
+		if self.train_steps % self.config.target_update_interval == 0:
+			self.target_net.load_state_dict(self.policy_net.state_dict())
+
+		self.epsilon = max(self.config.epsilon_end, self.epsilon * self.config.epsilon_decay)
+		return {"loss": float(loss.item()), "epsilon": float(self.epsilon)}
 
 	def state_dict(self) -> Dict[str, Any]:
 		return {
@@ -127,6 +174,22 @@ class VDNTrainer:
 
 	def act(self, observations: Sequence[np.ndarray], greedy: bool = False) -> List[int]:
 		return [agent.select_action(obs, greedy=greedy) for agent, obs in zip(self.agents, observations)]
+
+	def observe(
+		self,
+		observations: Sequence[np.ndarray],
+		actions: Sequence[int],
+		rewards: Sequence[float],
+		next_observations: Sequence[np.ndarray],
+		dones: Sequence[bool],
+	) -> None:
+		for agent, obs, action, reward, next_obs, done in zip(
+			self.agents, observations, actions, rewards, next_observations, dones
+		):
+			agent.store_transition(obs, action, reward, next_obs, done)
+
+	def update(self) -> List[Optional[Dict[str, float]]]:
+		return [agent.update() for agent in self.agents]
 
 	def state_dict(self) -> Dict[str, Any]:
 		return {f"agent_{idx}": agent.state_dict() for idx, agent in enumerate(self.agents)}

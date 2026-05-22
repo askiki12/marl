@@ -16,7 +16,7 @@ import os
 import random
 from dataclasses import asdict, dataclass
 from pathlib import Path
-from typing import Dict, List, Sequence
+from typing import Any, Dict, List, Sequence
 
 import numpy as np
 
@@ -31,6 +31,7 @@ except ImportError as exc:  # pragma: no cover
 	raise ImportError("PyTorch is required to run the experiment entrypoint") from exc
 
 from marl.algorithms import IQLConfig, IQLTrainer, VDNConfig, VDNTrainer
+from marl.utils import append_jsonl, ensure_directory, plot_learning_curves, save_checkpoint, save_json
 
 
 FIXED_ENV_NAME = "Switch4-v0"
@@ -72,6 +73,55 @@ def set_seed(seed: int) -> None:
 		torch.cuda.manual_seed_all(seed)
 
 
+def _unpack_reset_result(reset_result: Any) -> List[np.ndarray]:
+	if isinstance(reset_result, tuple):
+		observations = reset_result[0]
+	else:
+		observations = reset_result
+	return [np.asarray(obs, dtype=np.float32).reshape(-1) for obs in observations]
+
+
+def _unpack_step_result(step_result: Any) -> tuple[list[np.ndarray], list[float], list[bool], dict]:
+	if len(step_result) == 5:
+		next_observations, rewards, terminated, truncated, info = step_result
+		dones = [bool(term or trunc) for term, trunc in zip(terminated, truncated)]
+	else:
+		next_observations, rewards, dones, info = step_result
+	return (
+		[np.asarray(obs, dtype=np.float32).reshape(-1) for obs in next_observations],
+		[float(reward) for reward in rewards],
+		[bool(done) for done in dones],
+		dict(info),
+	)
+
+
+def _collect_update_stats(update_result: Any) -> Dict[str, float]:
+	losses: List[float] = []
+	epsilons: List[float] = []
+	if isinstance(update_result, list):
+		for item in update_result:
+			if isinstance(item, dict):
+				if "loss" in item:
+					losses.append(float(item["loss"]))
+				if "epsilon" in item:
+					epsilons.append(float(item["epsilon"]))
+	return {
+		"loss": float(np.mean(losses)) if losses else 0.0,
+		"epsilon": float(np.mean(epsilons)) if epsilons else 0.0,
+	}
+
+
+def _extract_success(info: Dict[str, Any]) -> float:
+	for key in ("success", "is_success", "completed", "done"):
+		if key in info:
+			value = info[key]
+			if isinstance(value, (bool, np.bool_)):
+				return float(value)
+			if isinstance(value, (int, float, np.integer, np.floating)):
+				return float(value)
+	return 0.0
+
+
 def make_env(env_name: str):
 	return gym.make(f"ma_gym:{env_name}")
 
@@ -94,21 +144,76 @@ def infer_obs_action_dims(env) -> Dict[str, int]:
 	return {"obs_dim": obs_dim, "action_dim": action_dim}
 
 
-def build_trainer(algorithm: str, env) -> object:
+def build_trainer(algorithm: str, env, device: str) -> object:
 	dims = infer_obs_action_dims(env)
 	agent_count = int(env.n_agents)
 	if algorithm == "iql":
-		agent_configs = [IQLConfig(obs_dim=dims["obs_dim"], action_dim=dims["action_dim"])] * agent_count
+		agent_configs = [
+			IQLConfig(obs_dim=dims["obs_dim"], action_dim=dims["action_dim"], device=device)
+			for _ in range(agent_count)
+		]
 		return IQLTrainer(agent_configs)
 	if algorithm == "vdn":
-		agent_configs = [VDNConfig(obs_dim=dims["obs_dim"], action_dim=dims["action_dim"])] * agent_count
+		agent_configs = [
+			VDNConfig(obs_dim=dims["obs_dim"], action_dim=dims["action_dim"], device=device)
+			for _ in range(agent_count)
+		]
 		return VDNTrainer(agent_configs)
 	raise ValueError(f"Unsupported algorithm: {algorithm}")
 
 
+def build_artifact_dirs(output_root: Path, algorithm: str, seed: int) -> Dict[str, Path]:
+	"""Create the standard artifact directories for one run.
+
+	The layout is:
+	- results/figures/<algorithm>/seed_<seed>/
+	- results/logs/<algorithm>/seed_<seed>/
+	- results/models/<algorithm>/seed_<seed>/
+	"""
+
+	figures_dir = ensure_directory(output_root / "figures" / algorithm / f"seed_{seed}")
+	logs_dir = ensure_directory(output_root / "logs" / algorithm / f"seed_{seed}")
+	models_dir = ensure_directory(output_root / "models" / algorithm / f"seed_{seed}")
+	return {"figures": figures_dir, "logs": logs_dir, "models": models_dir}
+
+
+def evaluate_policy(env_name: str, trainer: object, eval_episodes: int, seed: int) -> Dict[str, float]:
+	set_seed(seed)
+	env = make_env(env_name)
+	total_returns: List[float] = []
+	total_lengths: List[int] = []
+	total_success: List[float] = []
+
+	for _ in range(eval_episodes):
+		observations = _unpack_reset_result(env.reset())
+		done_n = [False] * env.n_agents
+		episode_return = 0.0
+		episode_length = 0
+		info: Dict[str, Any] = {}
+
+		while not all(done_n):
+			actions = trainer.act(observations, greedy=True)
+			step_result = env.step(actions)
+			next_observations, rewards, done_n, info = _unpack_step_result(step_result)
+			episode_return += float(np.sum(rewards))
+			episode_length += 1
+			observations = next_observations
+
+		total_returns.append(episode_return)
+		total_lengths.append(episode_length)
+		total_success.append(_extract_success(info))
+
+	env.close()
+	return {
+		"eval_return_mean": float(np.mean(total_returns)) if total_returns else 0.0,
+		"eval_return_std": float(np.std(total_returns)) if total_returns else 0.0,
+		"eval_length_mean": float(np.mean(total_lengths)) if total_lengths else 0.0,
+		"eval_success_rate": float(np.mean(total_success)) if total_success else 0.0,
+	}
+
+
 def run_training_loop(algorithm: str, env_name: str, train_episodes: int, eval_episodes: int, seeds: Sequence[int], output_dir: str, device: str) -> None:
-	output_root = Path(output_dir)
-	output_root.mkdir(parents=True, exist_ok=True)
+	output_root = ensure_directory(output_dir)
 
 	experiment_config = ExperimentConfig(
 		env_name=env_name,
@@ -119,25 +224,91 @@ def run_training_loop(algorithm: str, env_name: str, train_episodes: int, eval_e
 		output_dir=output_dir,
 		device=device,
 	)
-	with open(output_root / "experiment_config.json", "w", encoding="utf-8") as config_file:
-		json.dump(asdict(experiment_config), config_file, ensure_ascii=False, indent=2)
+	save_json(output_root / "experiment_config.json", asdict(experiment_config))
 
 	for seed in seeds:
 		set_seed(seed)
 		env = make_env(env_name)
-		trainer = build_trainer(algorithm, env)
+		trainer = build_trainer(algorithm, env, device)
+		artifact_dirs = build_artifact_dirs(output_root, algorithm, seed)
+		metrics_path = artifact_dirs["logs"] / "metrics.jsonl"
+		checkpoints_dir = artifact_dirs["models"]
+		best_eval_return = float("-inf")
+		train_returns: List[float] = []
+		eval_returns: List[float] = []
+		eval_success_rates: List[float] = []
+		eval_interval = max(1, train_episodes // 10)
 
-		# TODO: implement the complete episode loop.
-		# Required pieces:
-		# - reset env and obtain per-agent observations
-		# - select actions with trainer.act(...)
-		# - step env and collect transitions
-		# - call trainer.observe(...) and trainer.update()
-		# - log episode return, success rate, steps, collision metrics
-		# - evaluate every fixed interval for eval_episodes
-		# - save checkpoints and plots under output_dir / algorithm / seed_xxx
-		_ = trainer
-		_ = eval_episodes
+		for episode_index in range(1, train_episodes + 1):
+			observations = _unpack_reset_result(env.reset())
+			done_n = [False] * env.n_agents
+			episode_return = 0.0
+			episode_length = 0
+			episode_success = 0.0
+
+			while not all(done_n):
+				actions = trainer.act(observations, greedy=False)
+				step_result = env.step(actions)
+				next_observations, rewards, done_n, info = _unpack_step_result(step_result)
+				trainer.observe(observations, actions, rewards, next_observations, done_n)
+				update_stats = _collect_update_stats(trainer.update())
+
+				episode_return += float(np.sum(rewards))
+				episode_length += 1
+				episode_success = _extract_success(info)
+				observations = next_observations
+
+			train_returns.append(episode_return)
+			train_record = {
+				"phase": "train",
+				"seed": seed,
+				"episode": episode_index,
+				"train_return": episode_return,
+				"episode_length": episode_length,
+				"success": episode_success,
+				"loss": update_stats["loss"],
+				"epsilon": update_stats["epsilon"],
+			}
+			append_jsonl(metrics_path, train_record)
+
+			if episode_index % eval_interval == 0 or episode_index == train_episodes:
+				eval_stats = evaluate_policy(env_name, trainer, eval_episodes, seed)
+				eval_returns.append(eval_stats["eval_return_mean"])
+				eval_success_rates.append(eval_stats["eval_success_rate"])
+				eval_record = {
+					"phase": "eval",
+					"seed": seed,
+					"episode": episode_index,
+					**eval_stats,
+				}
+				append_jsonl(metrics_path, eval_record)
+				if eval_stats["eval_return_mean"] >= best_eval_return:
+					best_eval_return = eval_stats["eval_return_mean"]
+					save_checkpoint(checkpoints_dir / "best.pt", trainer.state_dict())
+
+		save_checkpoint(checkpoints_dir / "final.pt", trainer.state_dict())
+		save_json(
+			artifact_dirs["logs"] / "summary.json",
+			{
+				"seed": seed,
+				"algorithm": algorithm,
+				"env_name": env_name,
+				"train_episodes": train_episodes,
+				"eval_episodes": eval_episodes,
+				"best_eval_return": best_eval_return,
+				"final_train_return": train_returns[-1] if train_returns else 0.0,
+				"final_eval_return": eval_returns[-1] if eval_returns else 0.0,
+				"final_eval_success_rate": eval_success_rates[-1] if eval_success_rates else 0.0,
+			},
+		)
+		plot_learning_curves(
+			{
+				"train_return": train_returns,
+				"eval_return": eval_returns,
+				"eval_success_rate": eval_success_rates,
+			},
+			artifact_dirs["figures"] / "learning_curves.png",
+		)
 		env.close()
 
 
