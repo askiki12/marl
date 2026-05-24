@@ -19,6 +19,14 @@ from pathlib import Path
 from typing import Any, Dict, List, Sequence
 
 import numpy as np
+import shutil
+
+try:
+	from tqdm.auto import trange
+except Exception:  # pragma: no cover - fallback when tqdm isn't installed
+	def trange(*args, **kwargs):
+		# Fallback to built-in range when tqdm is unavailable.
+		return range(*args)
 
 try:
 	import gym
@@ -30,13 +38,13 @@ try:
 except ImportError as exc:  # pragma: no cover
 	raise ImportError("PyTorch is required to run the experiment entrypoint") from exc
 
-from marl.algorithms import IQLConfig, IQLTrainer, VDNConfig, VDNTrainer
-from marl.utils import append_jsonl, ensure_directory, plot_learning_curves, save_checkpoint, save_json
+from algorithms import IQLConfig, IQLTrainer, VDNConfig, VDNTrainer
+from utils import append_jsonl, ensure_directory, plot_learning_curves, save_checkpoint, save_json
 
 
 FIXED_ENV_NAME = "Switch4-v0"
 FIXED_ALGORITHMS = ("iql", "vdn")
-FIXED_TRAIN_EPISODES = 3000
+FIXED_TRAIN_EPISODES = 300
 FIXED_EVAL_EPISODES = 100
 FIXED_SEEDS = (0, 1, 2, 3, 4)
 DEFAULT_OUTPUT_DIR = Path("results")
@@ -184,7 +192,7 @@ def evaluate_policy(env_name: str, trainer: object, eval_episodes: int, seed: in
 	total_lengths: List[int] = []
 	total_success: List[float] = []
 
-	for _ in range(eval_episodes):
+	for _ in trange(eval_episodes, desc=f"eval_seed={seed}", unit="ep"):
 		observations = _unpack_reset_result(env.reset())
 		done_n = [False] * env.n_agents
 		episode_return = 0.0
@@ -232,6 +240,36 @@ def run_training_loop(algorithm: str, env_name: str, train_episodes: int, eval_e
 		trainer = build_trainer(algorithm, env, device)
 		artifact_dirs = build_artifact_dirs(output_root, algorithm, seed)
 		metrics_path = artifact_dirs["logs"] / "metrics.jsonl"
+		# Clear previous run artifacts so each run starts fresh (overwrite semantics)
+		# Remove old metrics file
+		try:
+			if metrics_path.exists():
+				metrics_path.unlink()
+		except Exception:
+			pass
+		# Clear models directory contents
+		checkpoints_dir = artifact_dirs["models"]
+		try:
+			for p in list(checkpoints_dir.iterdir()):
+				if p.is_file() or p.is_symlink():
+					p.unlink()
+				elif p.is_dir():
+					shutil.rmtree(p)
+		except Exception:
+			pass
+		# Clear figures directory contents
+		figures_dir = artifact_dirs["figures"]
+		try:
+			for p in list(figures_dir.iterdir()):
+				if p.is_file() or p.is_symlink():
+					p.unlink()
+				elif p.is_dir():
+					shutil.rmtree(p)
+		except Exception:
+			pass
+		# Ensure directories exist after clearing
+		ensure_directory(checkpoints_dir)
+		ensure_directory(figures_dir)
 		checkpoints_dir = artifact_dirs["models"]
 		best_eval_return = float("-inf")
 		train_returns: List[float] = []
@@ -239,7 +277,8 @@ def run_training_loop(algorithm: str, env_name: str, train_episodes: int, eval_e
 		eval_success_rates: List[float] = []
 		eval_interval = max(1, train_episodes // 10)
 
-		for episode_index in range(1, train_episodes + 1):
+		episode_iter = trange(1, train_episodes + 1, desc=f"seed={seed}", unit="ep")
+		for episode_index in episode_iter:
 			observations = _unpack_reset_result(env.reset())
 			done_n = [False] * env.n_agents
 			episode_return = 0.0
@@ -270,6 +309,17 @@ def run_training_loop(algorithm: str, env_name: str, train_episodes: int, eval_e
 				"epsilon": update_stats["epsilon"],
 			}
 			append_jsonl(metrics_path, train_record)
+			# update tqdm postfix with latest metrics
+			try:
+				episode_iter.set_postfix(
+					{
+						"ret": f"{episode_return:.2f}",
+						"loss": f"{update_stats['loss']:.4f}",
+						"eps": f"{update_stats['epsilon']:.3f}",
+					}
+				)
+			except Exception:
+				pass
 
 			if episode_index % eval_interval == 0 or episode_index == train_episodes:
 				eval_stats = evaluate_policy(env_name, trainer, eval_episodes, seed)
