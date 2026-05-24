@@ -352,12 +352,16 @@ def run_training_loop(algorithm: str, env_name: str, train_episodes: int, eval_e
 			},
 		)
 		plot_learning_curves(
-			{
-				"train_return": train_returns,
-				"eval_return": eval_returns,
-				"eval_success_rate": eval_success_rates,
-			},
-			artifact_dirs["figures"] / "learning_curves.png",
+			{"train_return": train_returns},
+			artifact_dirs["figures"] / "train_return.png",
+		)
+		plot_learning_curves(
+			{"eval_return": eval_returns},
+			artifact_dirs["figures"] / "eval_return.png",
+		)
+		plot_learning_curves(
+			{"eval_success_rate": eval_success_rates},
+			artifact_dirs["figures"] / "eval_success_rate.png",
 		)
 		env.close()
 
