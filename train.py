@@ -44,7 +44,7 @@ from utils import append_jsonl, ensure_directory, plot_learning_curves, save_che
 
 FIXED_ENV_NAME = "Switch4-v0"
 FIXED_ALGORITHMS = ("iql", "vdn")
-FIXED_TRAIN_EPISODES = 300
+FIXED_TRAIN_EPISODES = 3000
 FIXED_EVAL_EPISODES = 100
 FIXED_SEEDS = (0, 1, 2, 3, 4)
 DEFAULT_OUTPUT_DIR = Path("results")
@@ -82,19 +82,12 @@ def set_seed(seed: int) -> None:
 
 
 def _unpack_reset_result(reset_result: Any) -> List[np.ndarray]:
-	if isinstance(reset_result, tuple):
-		observations = reset_result[0]
-	else:
-		observations = reset_result
+	observations = reset_result
 	return [np.asarray(obs, dtype=np.float32).reshape(-1) for obs in observations]
 
 
 def _unpack_step_result(step_result: Any) -> tuple[list[np.ndarray], list[float], list[bool], dict]:
-	if len(step_result) == 5:
-		next_observations, rewards, terminated, truncated, info = step_result
-		dones = [bool(term or trunc) for term, trunc in zip(terminated, truncated)]
-	else:
-		next_observations, rewards, dones, info = step_result
+	next_observations, rewards, dones, info = step_result
 	return (
 		[np.asarray(obs, dtype=np.float32).reshape(-1) for obs in next_observations],
 		[float(reward) for reward in rewards],
@@ -119,17 +112,6 @@ def _collect_update_stats(update_result: Any) -> Dict[str, float]:
 	}
 
 
-def _extract_success(info: Dict[str, Any]) -> float:
-	for key in ("success", "is_success", "completed", "done"):
-		if key in info:
-			value = info[key]
-			if isinstance(value, (bool, np.bool_)):
-				return float(value)
-			if isinstance(value, (int, float, np.integer, np.floating)):
-				return float(value)
-	return 0.0
-
-
 def make_env(env_name: str):
 	return gym.make(f"ma_gym:{env_name}")
 
@@ -141,7 +123,7 @@ def infer_obs_action_dims(env) -> Dict[str, int]:
 	if hasattr(obs_space, "shape") and obs_space.shape is not None:
 		obs_dim = int(np.prod(obs_space.shape))
 	else:
-		sample_obs = env.reset()[0]
+		sample_obs = env.reset()
 		obs_dim = int(np.asarray(sample_obs).shape[-1])
 
 	if hasattr(action_space, "n"):
@@ -195,21 +177,23 @@ def evaluate_policy(env_name: str, trainer: object, eval_episodes: int, seed: in
 	for _ in trange(eval_episodes, desc=f"eval_seed={seed}", unit="ep"):
 		observations = _unpack_reset_result(env.reset())
 		done_n = [False] * env.n_agents
+		has_negative_reward = True
 		episode_return = 0.0
 		episode_length = 0
-		info: Dict[str, Any] = {}
 
 		while not all(done_n):
 			actions = trainer.act(observations, greedy=True)
 			step_result = env.step(actions)
-			next_observations, rewards, done_n, info = _unpack_step_result(step_result)
+			next_observations, rewards, done_n, _ = _unpack_step_result(step_result)
+			if not any(reward < 0.0 for reward in rewards):
+				has_negative_reward = False
 			episode_return += float(np.sum(rewards))
 			episode_length += 1
 			observations = next_observations
 
 		total_returns.append(episode_return)
 		total_lengths.append(episode_length)
-		total_success.append(_extract_success(info))
+		total_success.append(float(all(done_n) and not has_negative_reward))
 
 	env.close()
 	return {
@@ -281,21 +265,24 @@ def run_training_loop(algorithm: str, env_name: str, train_episodes: int, eval_e
 		for episode_index in episode_iter:
 			observations = _unpack_reset_result(env.reset())
 			done_n = [False] * env.n_agents
+			has_negative_reward = True
 			episode_return = 0.0
 			episode_length = 0
-			episode_success = 0.0
 
 			while not all(done_n):
 				actions = trainer.act(observations, greedy=False)
 				step_result = env.step(actions)
-				next_observations, rewards, done_n, info = _unpack_step_result(step_result)
+				next_observations, rewards, done_n, _ = _unpack_step_result(step_result)
+				if not any(reward < 0.0 for reward in rewards):
+					has_negative_reward = False
 				trainer.observe(observations, actions, rewards, next_observations, done_n)
 				update_stats = _collect_update_stats(trainer.update())
 
 				episode_return += float(np.sum(rewards))
 				episode_length += 1
-				episode_success = _extract_success(info)
 				observations = next_observations
+
+			episode_success = float(all(done_n) and not has_negative_reward)
 
 			train_returns.append(episode_return)
 			train_record = {
@@ -354,14 +341,20 @@ def run_training_loop(algorithm: str, env_name: str, train_episodes: int, eval_e
 		plot_learning_curves(
 			{"train_return": train_returns},
 			artifact_dirs["figures"] / "train_return.png",
+			title="Training Return",
+			ylabel="Return",
 		)
 		plot_learning_curves(
 			{"eval_return": eval_returns},
 			artifact_dirs["figures"] / "eval_return.png",
+			title="Evaluation Return",
+			ylabel="Return",
 		)
 		plot_learning_curves(
 			{"eval_success_rate": eval_success_rates},
 			artifact_dirs["figures"] / "eval_success_rate.png",
+			title="Evaluation Success Rate",
+			ylabel="Success Rate",
 		)
 		env.close()
 
