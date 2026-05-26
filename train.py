@@ -45,7 +45,7 @@ from utils import append_jsonl, ensure_directory, plot_learning_curves, save_che
 FIXED_ENV_NAME = "Switch4-v0"
 FIXED_ALGORITHMS = ("iql", "vdn")
 FIXED_TRAIN_EPISODES = 3000
-FIXED_EVAL_EPISODES = 100
+FIXED_EVAL_EPISODES = 5
 FIXED_SEEDS = (0, 1, 2, 3, 4)
 DEFAULT_OUTPUT_DIR = Path("results")
 
@@ -192,6 +192,7 @@ def evaluate_policy(env_name: str, trainer: object, eval_episodes: int, seed: in
 			observations = next_observations
 
 		total_returns.append(episode_return)
+		print(f"Eval Episode {_}: Return={episode_return:.2f}")
 		total_lengths.append(episode_length)
 		total_success.append(float(all(done_n) and not has_negative_reward))
 
