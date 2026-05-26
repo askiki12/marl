@@ -1,0 +1,4012 @@
+{
+  "0": [
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.7692307692307693,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    }
+  ],
+  "1": [
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.782608695652174,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    }
+  ],
+  "2": [
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.45217391304347826,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    }
+  ],
+  "3": [
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.06666666666666667,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    }
+  ],
+  "4": [
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    },
+    {
+      "episode_return": -1.3000000000000027,
+      "episode_length": 50.0,
+      "success": 0.0,
+      "collision_rate": 0.8608695652173913,
+      "completion_steps": null,
+      "path_efficiency": 0.14
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "seed_summaries": [
+    {
+      "eval_return_mean": -1.3000000000000025,
+      "eval_return_std": 2.220446049250313e-16,
+      "task_completion_rate": 0.0,
+      "policy_stability": 2.220446049250313e-16,
+      "avg_completion_steps": null,
+      "collision_rate": 0.7692307692307695,
+      "path_planning_efficiency": 0.14000000000000007,
+      "successful_episodes": 0.0,
+      "total_episodes": 100.0,
+      "seed": 0,
+      "algorithm": "vdn",
+      "env_name": "Switch4-v0",
+      "checkpoint_path": "/workspace/marl/marl/results/models/vdn/seed_0/best.pt"
+    },
+    {
+      "eval_return_mean": -1.3000000000000025,
+      "eval_return_std": 2.220446049250313e-16,
+      "task_completion_rate": 0.0,
+      "policy_stability": 2.220446049250313e-16,
+      "avg_completion_steps": null,
+      "collision_rate": 0.782608695652174,
+      "path_planning_efficiency": 0.14000000000000007,
+      "successful_episodes": 0.0,
+      "total_episodes": 100.0,
+      "seed": 1,
+      "algorithm": "vdn",
+      "env_name": "Switch4-v0",
+      "checkpoint_path": "/workspace/marl/marl/results/models/vdn/seed_1/best.pt"
+    },
+    {
+      "eval_return_mean": -1.3000000000000025,
+      "eval_return_std": 2.220446049250313e-16,
+      "task_completion_rate": 0.0,
+      "policy_stability": 2.220446049250313e-16,
+      "avg_completion_steps": null,
+      "collision_rate": 0.45217391304347837,
+      "path_planning_efficiency": 0.14000000000000007,
+      "successful_episodes": 0.0,
+      "total_episodes": 100.0,
+      "seed": 2,
+      "algorithm": "vdn",
+      "env_name": "Switch4-v0",
+      "checkpoint_path": "/workspace/marl/marl/results/models/vdn/seed_2/best.pt"
+    },
+    {
+      "eval_return_mean": -1.3000000000000025,
+      "eval_return_std": 2.220446049250313e-16,
+      "task_completion_rate": 0.0,
+      "policy_stability": 2.220446049250313e-16,
+      "avg_completion_steps": null,
+      "collision_rate": 0.06666666666666665,
+      "path_planning_efficiency": 0.14000000000000007,
+      "successful_episodes": 0.0,
+      "total_episodes": 100.0,
+      "seed": 3,
+      "algorithm": "vdn",
+      "env_name": "Switch4-v0",
+      "checkpoint_path": "/workspace/marl/marl/results/models/vdn/seed_3/best.pt"
+    },
+    {
+      "eval_return_mean": -1.3000000000000025,
+      "eval_return_std": 2.220446049250313e-16,
+      "task_completion_rate": 0.0,
+      "policy_stability": 2.220446049250313e-16,
+      "avg_completion_steps": null,
+      "collision_rate": 0.8608695652173912,
+      "path_planning_efficiency": 0.14000000000000007,
+      "successful_episodes": 0.0,
+      "total_episodes": 100.0,
+      "seed": 4,
+      "algorithm": "vdn",
+      "env_name": "Switch4-v0",
+      "checkpoint_path": "/workspace/marl/marl/results/models/vdn/seed_4/best.pt"
+    }
+  ],
+  "aggregate": {
+    "eval_return_mean": {
+      "mean": -1.3000000000000025,
+      "std": 0.0
+    },
+    "eval_return_std": {
+      "mean": 2.220446049250313e-16,
+      "std": 0.0
+    },
+    "task_completion_rate": {
+      "mean": 0.0,
+      "std": 0.0
+    },
+    "policy_stability": {
+      "mean": 2.220446049250313e-16,
+      "std": 0.0
+    },
+    "avg_completion_steps": {
+      "mean": null,
+      "std": null
+    },
+    "collision_rate": {
+      "mean": 0.586309921962096,
+      "std": 0.29509246831623437
+    },
+    "path_planning_efficiency": {
+      "mean": 0.14000000000000007,
+      "std": 0.0
+    }
+  },
+  "missing_seeds": []
+}

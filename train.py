@@ -192,7 +192,6 @@ def evaluate_policy(env_name: str, trainer: object, eval_episodes: int, seed: in
 			observations = next_observations
 
 		total_returns.append(episode_return)
-		print(f"Eval Episode {_}: Return={episode_return:.2f}")
 		total_lengths.append(episode_length)
 		total_success.append(float(all(done_n) and not has_negative_reward))
 

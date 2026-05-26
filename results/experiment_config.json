@@ -1,0 +1,18 @@
+{
+  "env_name": "Switch4-v0",
+  "train_episodes": 3000,
+  "eval_episodes": 5,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "algorithms": [
+    "iql",
+    "vdn"
+  ],
+  "output_dir": "results",
+  "device": "cuda"
+}

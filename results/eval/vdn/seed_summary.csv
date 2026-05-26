@@ -1,0 +1,6 @@
+seed,algorithm,env_name,checkpoint_path,eval_return_mean,eval_return_std,task_completion_rate,policy_stability,avg_completion_steps,collision_rate,path_planning_efficiency,successful_episodes,total_episodes
+0,vdn,Switch4-v0,/workspace/marl/marl/results/models/vdn/seed_0/best.pt,-1.3000000000000025,2.220446049250313e-16,0.0,2.220446049250313e-16,,0.7692307692307695,0.14000000000000007,0.0,100.0
+1,vdn,Switch4-v0,/workspace/marl/marl/results/models/vdn/seed_1/best.pt,-1.3000000000000025,2.220446049250313e-16,0.0,2.220446049250313e-16,,0.782608695652174,0.14000000000000007,0.0,100.0
+2,vdn,Switch4-v0,/workspace/marl/marl/results/models/vdn/seed_2/best.pt,-1.3000000000000025,2.220446049250313e-16,0.0,2.220446049250313e-16,,0.45217391304347837,0.14000000000000007,0.0,100.0
+3,vdn,Switch4-v0,/workspace/marl/marl/results/models/vdn/seed_3/best.pt,-1.3000000000000025,2.220446049250313e-16,0.0,2.220446049250313e-16,,0.06666666666666665,0.14000000000000007,0.0,100.0
+4,vdn,Switch4-v0,/workspace/marl/marl/results/models/vdn/seed_4/best.pt,-1.3000000000000025,2.220446049250313e-16,0.0,2.220446049250313e-16,,0.8608695652173912,0.14000000000000007,0.0,100.0

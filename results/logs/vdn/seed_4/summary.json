@@ -1,0 +1,11 @@
+{
+  "seed": 4,
+  "algorithm": "vdn",
+  "env_name": "Switch4-v0",
+  "train_episodes": 3000,
+  "eval_episodes": 5,
+  "best_eval_return": -1.3000000000000027,
+  "final_train_return": -1.3000000000000027,
+  "final_eval_return": -1.3000000000000027,
+  "final_eval_success_rate": 0.0
+}

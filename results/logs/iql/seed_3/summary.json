@@ -1,0 +1,11 @@
+{
+  "seed": 3,
+  "algorithm": "iql",
+  "env_name": "Switch4-v0",
+  "train_episodes": 3000,
+  "eval_episodes": 5,
+  "best_eval_return": -10.600000000000003,
+  "final_train_return": -19.999999999999993,
+  "final_eval_return": -19.999999999999993,
+  "final_eval_success_rate": 0.0
+}
