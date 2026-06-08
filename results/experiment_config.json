@@ -11,7 +11,8 @@
   ],
   "algorithms": [
     "iql",
-    "vdn"
+    "vdn",
+    "qmix"
   ],
   "output_dir": "results",
   "device": "cuda"

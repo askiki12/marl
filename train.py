@@ -38,12 +38,12 @@ try:
 except ImportError as exc:  # pragma: no cover
 	raise ImportError("PyTorch is required to run the experiment entrypoint") from exc
 
-from algorithms import IQLConfig, IQLTrainer, VDNConfig, VDNTrainer
+from algorithms import IQLConfig, IQLTrainer, QMIXConfig, QMIXTrainer, VDNConfig, VDNTrainer
 from utils import append_jsonl, ensure_directory, plot_learning_curves, save_checkpoint, save_json
 
 
 FIXED_ENV_NAME = "Switch4-v0"
-FIXED_ALGORITHMS = ("iql", "vdn")
+FIXED_ALGORITHMS = ("iql", "vdn", "qmix")
 FIXED_TRAIN_EPISODES = 3000
 FIXED_EVAL_EPISODES = 5
 FIXED_SEEDS = (0, 1, 2, 3, 4)
@@ -134,6 +134,34 @@ def infer_obs_action_dims(env) -> Dict[str, int]:
 	return {"obs_dim": obs_dim, "action_dim": action_dim}
 
 
+def infer_qmix_state_dim(env, obs_dim: int, agent_count: int) -> int:
+	if hasattr(env, "agent_pos") and hasattr(env, "final_agent_pos") and hasattr(env, "_grid_shape"):
+		return int(agent_count * 4 + 1)
+	return int(obs_dim * agent_count)
+
+
+def build_qmix_state(env, observations: Sequence[np.ndarray]) -> np.ndarray:
+	if hasattr(env, "agent_pos") and hasattr(env, "final_agent_pos") and hasattr(env, "_grid_shape"):
+		grid_rows, grid_cols = env._grid_shape
+		features: List[float] = []
+		for agent_index in range(env.n_agents):
+			current_pos = env.agent_pos[agent_index]
+			goal_pos = env.final_agent_pos[agent_index]
+			features.extend(
+				[
+					float(current_pos[0]) / max(1.0, float(grid_rows - 1)),
+					float(current_pos[1]) / max(1.0, float(grid_cols - 1)),
+					float(goal_pos[0]) / max(1.0, float(grid_rows - 1)),
+					float(goal_pos[1]) / max(1.0, float(grid_cols - 1)),
+				]
+			)
+		step_count = float(getattr(env, "_step_count", 0) or 0)
+		max_steps = float(getattr(env, "_max_steps", 1) or 1)
+		features.append(step_count / max(1.0, max_steps))
+		return np.asarray(features, dtype=np.float32)
+	return np.concatenate([np.asarray(obs, dtype=np.float32).reshape(-1) for obs in observations], axis=0)
+
+
 def build_trainer(algorithm: str, env, device: str) -> object:
 	dims = infer_obs_action_dims(env)
 	agent_count = int(env.n_agents)
@@ -149,6 +177,13 @@ def build_trainer(algorithm: str, env, device: str) -> object:
 			for _ in range(agent_count)
 		]
 		return VDNTrainer(agent_configs)
+	if algorithm == "qmix":
+		state_dim = infer_qmix_state_dim(env, int(dims["obs_dim"]), agent_count)
+		agent_configs = [
+			QMIXConfig(obs_dim=dims["obs_dim"], action_dim=dims["action_dim"], state_dim=state_dim, device=device)
+			for _ in range(agent_count)
+		]
+		return QMIXTrainer(agent_configs)
 	raise ValueError(f"Unsupported algorithm: {algorithm}")
 
 
@@ -270,12 +305,17 @@ def run_training_loop(algorithm: str, env_name: str, train_episodes: int, eval_e
 			episode_length = 0
 
 			while not all(done_n):
+				current_state = build_qmix_state(env, observations) if algorithm == "qmix" else None
 				actions = trainer.act(observations, greedy=False)
 				step_result = env.step(actions)
 				next_observations, rewards, done_n, _ = _unpack_step_result(step_result)
+				next_state = build_qmix_state(env, next_observations) if algorithm == "qmix" else None
 				if not any(reward < 0.0 for reward in rewards):
 					has_negative_reward = False
-				trainer.observe(observations, actions, rewards, next_observations, done_n)
+				if algorithm == "qmix":
+					trainer.observe(observations, actions, rewards, next_observations, done_n, current_state, next_state)
+				else:
+					trainer.observe(observations, actions, rewards, next_observations, done_n)
 				update_stats = _collect_update_stats(trainer.update())
 
 				episode_return += float(np.sum(rewards))

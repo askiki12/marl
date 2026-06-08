@@ -30,12 +30,12 @@ try:
 except ImportError as exc:  # pragma: no cover
 	raise ImportError("PyTorch is required to load checkpoints") from exc
 
-from algorithms import IQLConfig, IQLTrainer, VDNConfig, VDNTrainer
+from algorithms import IQLConfig, IQLTrainer, QMIXConfig, QMIXTrainer, VDNConfig, VDNTrainer
 from utils import ensure_directory
 
 
 FIXED_ENV_NAME = "Switch4-v0"
-FIXED_ALGORITHMS = ("iql", "vdn")
+FIXED_ALGORITHMS = ("iql", "vdn", "qmix")
 DEFAULT_CHECKPOINT_NAME = "best.pt"
 
 
@@ -97,6 +97,12 @@ def infer_obs_action_dims(env) -> Dict[str, int]:
 	return {"obs_dim": obs_dim, "action_dim": action_dim}
 
 
+def infer_qmix_state_dim(env, obs_dim: int, agent_count: int) -> int:
+	if hasattr(env, "agent_pos") and hasattr(env, "final_agent_pos") and hasattr(env, "_grid_shape"):
+		return int(agent_count * 4 + 1)
+	return int(obs_dim * agent_count)
+
+
 def build_trainer(algorithm: str, env, device: str) -> object:
 	dims = infer_obs_action_dims(env)
 	agent_count = int(env.n_agents)
@@ -112,6 +118,13 @@ def build_trainer(algorithm: str, env, device: str) -> object:
 			for _ in range(agent_count)
 		]
 		return VDNTrainer(agent_configs)
+	if algorithm == "qmix":
+		state_dim = infer_qmix_state_dim(env, int(dims["obs_dim"]), agent_count)
+		agent_configs = [
+			QMIXConfig(obs_dim=dims["obs_dim"], action_dim=dims["action_dim"], state_dim=state_dim, device=device)
+			for _ in range(agent_count)
+		]
+		return QMIXTrainer(agent_configs)
 	raise ValueError(f"Unsupported algorithm: {algorithm}")
 
 
